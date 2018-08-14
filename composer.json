@@ -1,0 +1,25 @@
+{
+    "name": "pmj/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Pedro Merlo Junior",
+            "email": "pedro_merlo@globo.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}
